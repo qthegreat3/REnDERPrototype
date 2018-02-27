@@ -1,4 +1,11 @@
-
+body, a {
+max-width: 100%;
+color: #183C5B;
+background-color: #ECEEF0;
+}
+a:hover {
+	color: #838CA0;
+}
 #divider-line {
 	width: 2px;
 	background-color: black;
@@ -8,13 +15,10 @@
 #home-logo {
 	display: inline-block;
 	margin-left: 3%;
-	vertical-align: top;
 }
 
 #home-title {
 	display: inline-block;
-	vertical-align: top;
-    font-size: 80px;
 }
 
 #the-container {
@@ -25,6 +29,7 @@
 
 .home-column {
 	max-width: 50%;
+	/*display: inline-block;*/
 	flex: 1;
 	vertical-align: top;
 	text-align: center;
@@ -39,4 +44,18 @@
 .home-column > a:hover {
 	text-decoration: none;
 }
+
+.button {
+	color: #ECEEF0;
+	display: inline-block;
+	background-color: #183C5B;
+	max-width: 25%;
+	padding: 20px;
+	margin-top: 100px;
+}
+
+.button:hover {
+	background-color: #838CA0;
+}
+
 
